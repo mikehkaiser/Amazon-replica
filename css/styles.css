@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none
+}
+div{
+    padding: 5px;
+}
+
+.logo-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.center-span{
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+fieldset{
+    width: 75%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+fieldset label{
+    font-size: 90%;
+    padding-bottom: 5px;
+}
+
+#forgot-password {
+    float: right
+}
+
+form input{
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+form input[type="submit"]{
+    background-color: #f7c548;
+    font-size: 80%;
+}
+
+#help-link {
+    font-size: 12px;
+    padding-left: 2px
+}
+
+#help-link::before{
+    content: "\27A4";
+    vertical-align: center;
+    padding-right: 4px;
+    font-size: 10px;
+}
+
+.separator {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid lightgray;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 5px;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 5px;
+}
+
+#new-to-amazon {
+    font-size: 11px;
+    text-align: center
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 75%;
+    background-color: rgb(231, 226, 226);
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+#footer {
+    text-align: center;
+    border-top: solid 1px lightgray;
+    padding-top: 30px;
+    font-size: 11px;
+    line-height: 1.465;
+}
+
+#footer a{
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+
+#copyright{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 11px;
+    line-height: 1.465;
+}
+/* Need Help section with unicode character*/
+/* span tag with forgot password
+/* make link or style to blue */
+
+
+
+/* Footer */
